@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+    
+    body {
+      font-size: 24px;
+      line-height: 32px;
+      color: #333;
+    }
+  
+    section {
+      padding: 20px;
+      margin-bottom: 20px;
+      background: #ccc;
+    }
+  
+    a {
+      text-decoration: none;
+      color: gray;
+    }
+    
+    #jason-dark {
+      margin-left: 21%;
+      margin-right: 39%;
+      color: white;
+      float: left;
+      width: 10%;
+      background: rgb(163, 236, 236);
+    }
+    
+    #about {
+      float: left;
+      width: 10%;
+      background:white;
+    }
+    
+    #portfolio {
+      float: left;
+      width: 10%;
+      background: white;
+    }
+  
+    #contact {
+      float: left;
+      width: 10%;
+      background:white;
+    }
+    
+    #middle-backdrop {
+      height: 700px;
+      width: 100%;
+      margin-bottom: 0%;
+      overflow: auto;
+      clear: both;
+      background: #eee;
+    }
+    #about-me {
+      float: left;
+      text-align: left;
+      font-size: 40px; 
+      background: white;
+      color:rgb(163, 236, 236);
+      width: 33%;
+    }
+  
+    .pic {
+      clear: both;
+      height: 200px;
+      float: left;
+    }
+    
+    aside {
+      width: 60%;
+      height: 500px;
+      padding: 20px;
+      margin-left: 20%;
+      background: #fff;
+      border: 1px solid #eee;
+    }
+    
+    footer {
+      height: 50px;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 20px;
+      clear: both;
+      background: #ccc;
+    }
+    
