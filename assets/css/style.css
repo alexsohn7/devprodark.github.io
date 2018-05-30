@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    text-align: center;
   }
     
     body {
@@ -11,8 +10,6 @@
   
     section {
       padding: 20px;
-      margin-bottom: 20px;
-      background: #ccc;
     }
   
     a {
@@ -20,34 +17,53 @@
       color: gray;
     }
     
-    #jason-dark {
+    .jason-dark {
       margin-left: 21%;
-      margin-right: 39%;
+      margin-right: 18%;
       color: white;
       float: left;
-      width: 10%;
+      width: 14%;
       background: rgb(163, 236, 236);
+      font-size: 40px;
     }
+  
+    ul {
+      list-style-type: none;
+    }
+  
+    li {
+      display: inline-block;
+      border-right: 1px solid #ccc;
+      padding: inherit;
+      }
+  
+      li:last-child  { border: 0; }
     
-    #about {
+    .about {
       float: left;
       width: 10%;
       background:white;
+      font-size: 20px;
+      margin-top: 10px;
     }
     
-    #portfolio {
+    .portfolio {
       float: left;
       width: 10%;
       background: white;
+      font-size: 20px;
+      margin-top: 10px;
     }
   
-    #contact {
+    .contact {
       float: left;
       width: 10%;
       background:white;
+      font-size: 20px;
+      margin-top: 10px;
     }
     
-    #middle-backdrop {
+    .middle-backdrop {
       height: 700px;
       width: 100%;
       margin-bottom: 0%;
@@ -55,19 +71,25 @@
       clear: both;
       background: #eee;
     }
-    #about-me {
-      float: left;
+    .about-me {
+      clear: both;
       text-align: left;
       font-size: 40px; 
       background: white;
       color:rgb(163, 236, 236);
-      width: 33%;
+      width: 100%;
+    }
+  
+    hr {
+      line-height: 1px;
     }
   
     .pic {
+      margin-top: 25px;
       clear: both;
       height: 200px;
-      float: left;
+      float: left; 
+      padding-right: 15px;
     }
     
     aside {
@@ -86,5 +108,39 @@
       padding: 20px;
       clear: both;
       background: #ccc;
+      text-align: center;
     }
-    
+
+    form {
+      color: gray;
+      font-size: 20px;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+    }
+
+    #name {
+      height: 30px;
+    }
+
+    #email {
+      height: 30px;
+    }
+
+    #message {
+      height: 150px;
+      width: 100%;
+    }
+
+    #paside {
+      height: 1000px;
+    }
+
+    .ppic {
+      display: block;
+      float: left;
+      margin-left: 13%;
+      padding: 5px;
+    }
